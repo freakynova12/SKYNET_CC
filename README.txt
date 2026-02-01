@@ -67,4 +67,16 @@ This makes Skynet_CC ideal for:
 ---
 
 ## 🏗️ Project Structure
-
+Skynet_CC/
+├── frontend/
+│ └── dashboard.py # Streamlit UI
+├── core/
+│ ├── agent.py # PaymentOpsAgent logic
+│ ├── signals.py # Signal definitions
+│ └── policies.py # Decision constraints
+├── simulation/
+│ └── simulator.py # Payment transaction simulator
+├── adaptive.py # Learning & threshold adaptation
+├── main.py # Application entry point
+├── requirements.txt # Python dependencies
+└── README.md
